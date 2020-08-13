@@ -6,7 +6,7 @@ import (
 
 	"go.opencensus.io/trace"
 
-	"github.com/luna-duclos/instrumentedsql"
+	"mindoktor.io/instrumentedsql"
 )
 
 type tracer struct {

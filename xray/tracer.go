@@ -5,7 +5,8 @@ import (
 	"database/sql/driver"
 
 	"github.com/aws/aws-xray-sdk-go/xray"
-	"github.com/luna-duclos/instrumentedsql"
+
+	"mindoktor.io/instrumentedsql"
 )
 
 const (

@@ -4,10 +4,11 @@ import (
 	"context"
 	"database/sql/driver"
 
-	"github.com/luna-duclos/instrumentedsql"
 	"github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/opentracing/opentracing-go/log"
+
+	"mindoktor.io/instrumentedsql"
 )
 
 type tracer struct {
